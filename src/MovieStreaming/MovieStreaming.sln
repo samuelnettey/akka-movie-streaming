@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStreaming", "MovieStreaming\MovieStreaming.csproj", "{EDAC4A4A-32D6-4B95-99AD-0B355ECB5150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStreaming.PaymentProcessor", "..\MovieStreaming.PaymentProcessor\MovieStreaming.PaymentProcessor.csproj", "{FD28C8EA-A9C2-4E76-BA02-C3F12BEBD5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{EDAC4A4A-32D6-4B95-99AD-0B355ECB5150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAC4A4A-32D6-4B95-99AD-0B355ECB5150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAC4A4A-32D6-4B95-99AD-0B355ECB5150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD28C8EA-A9C2-4E76-BA02-C3F12BEBD5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD28C8EA-A9C2-4E76-BA02-C3F12BEBD5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD28C8EA-A9C2-4E76-BA02-C3F12BEBD5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD28C8EA-A9C2-4E76-BA02-C3F12BEBD5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

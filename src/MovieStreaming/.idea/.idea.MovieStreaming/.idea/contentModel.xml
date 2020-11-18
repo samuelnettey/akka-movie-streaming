@@ -12,6 +12,10 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="ColorConsole.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="SimulatedCorruptStateException.cs" t="Include" />
+          <e p="SimulatedTerribleMovieException.cs" t="Include" />
+        </e>
         <e p="Messages" t="Include">
           <e p="IncrementPlayCountMessage.cs" t="Include" />
           <e p="PlayMovieMessage.cs" t="Include" />
@@ -30,10 +34,37 @@
       <e p="MovieStreaming.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor" t="IncludeRecursive">
+      <e p="Actors" t="Include">
+        <e p="JobCoordinatorActor.cs" t="Include" />
+        <e p="PaymentWorkerActor.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ExternalSystems" t="Include">
+        <e p="DemoPaymentGateway.cs" t="Include" />
+        <e p="IPaymentGateway.cs" t="Include" />
+        <e p="PaymentReceipt.cs" t="Include" />
+      </e>
+      <e p="Messages" t="Include">
+        <e p="PaymentSentMessage.cs" t="Include" />
+        <e p="ProcessFileMessage.cs" t="Include" />
+        <e p="SendPaymentMessage.cs" t="Include" />
+      </e>
+      <e p="MovieStreaming.PaymentProcessor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="MovieStreaming.PaymentProcessor.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="payments.csv" t="Include" />
+      <e p="Program.cs" t="Include" />
+    </e>
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_MovieStreaming.963007992.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_MovieStreaming.1513173042.00" t="ExcludeRecursive" />
   </component>
 </project>
