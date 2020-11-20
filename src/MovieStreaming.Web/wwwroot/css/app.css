@@ -1,0 +1,34 @@
+﻿header {
+    padding: 20px;
+}
+.facebook-login-button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 350px;
+    border-radius: 4px;
+    padding:5px 2px 2px 2px;
+    border: 1px solid #3b3a39;
+    color: #3b3a39;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.facebook-login-button:hover {
+    text-decoration: none;
+    color: #3b3a39;
+}
+
+.facebook-login-button img {
+   width: 100px
+}
+
+.shadow-effect{
+    transition: 0.3s;
+}
+
+.shadow-effect:hover{
+    transition: 0.3s;
+}

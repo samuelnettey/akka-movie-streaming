@@ -1,3 +1,4 @@
+using System;
 using Akka.Actor;
 using MovieStreaming.PaymentProcessor.ExternalSystems;
 using MovieStreaming.PaymentProcessor.Messages;
@@ -22,7 +23,7 @@ namespace MovieStreaming.PaymentProcessor.Actors
         }
 
         private void HandleSendPayment(SendPaymentMessage message)
-        {            
+        {
             _paymentGateway.Pay(message.AccountNumber, message.Amount).PipeTo(Self, Sender);         
         }
     }

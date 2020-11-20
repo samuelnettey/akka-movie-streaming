@@ -4,6 +4,7 @@
     <projectFile>MovieStreaming/MovieStreaming.csproj</projectFile>
     <projectFile>../MovieStreaming.Messaging/MovieStreaming.Messaging.csproj</projectFile>
     <projectFile>../MovieSreaming.PaymentProcessor/MovieSreaming.PaymentProcessor.csproj</projectFile>
+    <projectFile>../MovieStreaming.Web/MovieStreaming.Web.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -25,16 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f226789-525c-4748-b751-56a2ac3fec82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/JobCoordinatorActor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/PaymentWorkerActor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/ExternalSystems/DemoPaymentGateway.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/ExternalSystems/IPaymentGateway.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/ExternalSystems/PaymentReceipt.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/PaymentSentMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/ProcessFileMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/SendPaymentMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/MovieStreaming.PaymentProcessor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/payments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/PaymentWorkerActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/PaymentWorkerActor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieStreaming/riderModule.iml" afterDir="false" />
@@ -78,10 +70,14 @@
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/ProcessFileMessage.cs" />
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/SendPaymentMessage.cs" />
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Messages/PaymentSentMessage.cs" />
-        <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/PaymentWorkerActor.cs" />
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/ExternalSystems/IPaymentGateway.cs" />
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/JobCoordinatorActor.cs" />
         <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Program.cs" />
+        <option value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/Actors/PaymentWorkerActor.cs" />
+        <option value="$PROJECT_DIR$/../MovieStreaming.Web/wwwroot/css/app.css" />
+        <option value="$PROJECT_DIR$/../MovieStreaming.Web/Shared/NavMenu.razor" />
+        <option value="$PROJECT_DIR$/../MovieStreaming.Web/wwwroot/index.html" />
+        <option value="$PROJECT_DIR$/../MovieStreaming.Web/Pages/Index.razor" />
       </list>
     </option>
   </component>
@@ -100,12 +96,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected=".NET Project.MovieStreaming.Messaging">
+  <component name="RunManager" selected=".NET Launch Settings Profile.MovieStreaming.Web">
     <configuration name="MovieSreaming.PaymentProcessor" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -160,6 +157,59 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="MovieStreaming.PaymentProcessor" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../MovieStreaming.PaymentProcessor/MovieStreaming.PaymentProcessor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MovieStreaming.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/../MovieStreaming.Web/MovieStreaming.Web.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETStandard,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="MovieStreaming.Web" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MovieStreaming.Web: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/../MovieStreaming.Web/MovieStreaming.Web.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETStandard,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.MovieStreaming.PaymentProcessor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -176,8 +226,19 @@
       <workItem from="1602068823894" duration="459000" />
       <workItem from="1604744305753" duration="7551000" />
       <workItem from="1605684701542" duration="1018000" />
-      <workItem from="1605692759860" duration="2378000" />
+      <workItem from="1605692759860" duration="6839000" />
+      <workItem from="1605731901473" duration="2061000" />
+      <workItem from="1605765771252" duration="7353000" />
+      <workItem from="1605853396157" duration="5543000" />
     </task>
+    <task id="LOCAL-00001" summary="added sample payment processing service to the System">
+      <created>1605696181338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605696181338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,70 +260,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added sample payment processing service to the System" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sample payment processing service to the System" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2104" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604841712710">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
     <state x="2104" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1604841712710" />
-    <state width="3798" height="283" key="GridCell.Tab.0.bottom" timestamp="1605686203591">
+    <state width="1878" height="956" key="GridCell.Tab.0.bottom" timestamp="1605859072906">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600200419096" />
-    <state width="3798" height="283" key="GridCell.Tab.0.bottom/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605686203591" />
+    <state width="1878" height="956" key="GridCell.Tab.0.bottom/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605859072906" />
     <state width="2553" height="295" key="GridCell.Tab.0.bottom/1680.-621.3840.2137/0.23.1680.987@1680.-621.3840.2137" timestamp="1600682711678" />
     <state width="3798" height="352" key="GridCell.Tab.0.bottom/1680.-644.3840.2160/0.0.1680.1050@1680.-644.3840.2160" timestamp="1600873407289" />
     <state width="3798" height="295" key="GridCell.Tab.0.bottom/1680.-644.3840.2160/0.23.1680.1027@1680.-644.3840.2160" timestamp="1600268328072" />
-    <state width="3798" height="283" key="GridCell.Tab.0.center" timestamp="1605686203591">
+    <state width="1878" height="956" key="GridCell.Tab.0.center" timestamp="1605859072906">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600200419095" />
-    <state width="3798" height="283" key="GridCell.Tab.0.center/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605686203591" />
+    <state width="1878" height="956" key="GridCell.Tab.0.center/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605859072906" />
     <state width="2553" height="295" key="GridCell.Tab.0.center/1680.-621.3840.2137/0.23.1680.987@1680.-621.3840.2137" timestamp="1600682711677" />
     <state width="3798" height="352" key="GridCell.Tab.0.center/1680.-644.3840.2160/0.0.1680.1050@1680.-644.3840.2160" timestamp="1600873407285" />
     <state width="3798" height="295" key="GridCell.Tab.0.center/1680.-644.3840.2160/0.23.1680.1027@1680.-644.3840.2160" timestamp="1600268328070" />
-    <state width="3798" height="283" key="GridCell.Tab.0.left" timestamp="1605686203591">
+    <state width="1878" height="956" key="GridCell.Tab.0.left" timestamp="1605859072904">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600200419094" />
-    <state width="3798" height="283" key="GridCell.Tab.0.left/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605686203591" />
+    <state width="1878" height="956" key="GridCell.Tab.0.left/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605859072904" />
     <state width="2553" height="295" key="GridCell.Tab.0.left/1680.-621.3840.2137/0.23.1680.987@1680.-621.3840.2137" timestamp="1600682711676" />
     <state width="3798" height="352" key="GridCell.Tab.0.left/1680.-644.3840.2160/0.0.1680.1050@1680.-644.3840.2160" timestamp="1600873407283" />
     <state width="3798" height="295" key="GridCell.Tab.0.left/1680.-644.3840.2160/0.23.1680.1027@1680.-644.3840.2160" timestamp="1600268328069" />
-    <state width="3798" height="283" key="GridCell.Tab.0.right" timestamp="1605686203591">
+    <state width="1878" height="956" key="GridCell.Tab.0.right" timestamp="1605859072906">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600200419095" />
-    <state width="3798" height="283" key="GridCell.Tab.0.right/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605686203591" />
+    <state width="1878" height="956" key="GridCell.Tab.0.right/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605859072906" />
     <state width="2553" height="295" key="GridCell.Tab.0.right/1680.-621.3840.2137/0.23.1680.987@1680.-621.3840.2137" timestamp="1600682711678" />
     <state width="3798" height="352" key="GridCell.Tab.0.right/1680.-644.3840.2160/0.0.1680.1050@1680.-644.3840.2160" timestamp="1600873407287" />
     <state width="3798" height="295" key="GridCell.Tab.0.right/1680.-644.3840.2160/0.23.1680.1027@1680.-644.3840.2160" timestamp="1600268328071" />
-    <state x="2669" y="182" key="Rider.ProjectTemplateDialog.Size" timestamp="1605692884653">
+    <state x="2669" y="182" key="Rider.ProjectTemplateDialog.Size" timestamp="1605853542969">
       <screen x="1680" y="-621" width="3840" height="2137" />
     </state>
-    <state x="2669" y="182" key="Rider.ProjectTemplateDialog.Size/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605692884653" />
+    <state x="2669" y="182" key="Rider.ProjectTemplateDialog.Size/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605853542969" />
     <state x="79" y="175" key="SettingsEditor" timestamp="1600149735567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="79" y="175" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600149735567" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MovieStreaming/Actors/UserCoordinatorActor.cs</url>
-          <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/MovieStreaming/Actors/UserCoordinatorActor.cs" initialLine="15">
-            <startOffsets>
-              <option value="361" />
-            </startOffsets>
-            <endOffsets>
-              <option value="637" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="2240" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605696208840">
+      <screen x="1680" y="-621" width="3840" height="2137" />
+    </state>
+    <state x="2240" y="187" key="Vcs.Push.Dialog.v2/1680.-621.3840.2137/0.23.1680.1027@1680.-621.3840.2137" timestamp="1605696208840" />
   </component>
 </project>
